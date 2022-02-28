@@ -1,6 +1,8 @@
 # Jenkins Pipeline (my-take)
 This repo contains some scripts from SampleApp_Linux and the CloudFormation template to launch a Jenkins pipeline in AWS.
+
 (I changed the AMIs on the template to allow access to instances from EC2 Instance Connect)
+
 Just a simple, highly available, automated deployment web application.
 
 If you want to replicate this pipeline, follow the steps below.
