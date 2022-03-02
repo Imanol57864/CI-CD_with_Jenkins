@@ -33,7 +33,7 @@ If you want to replicate this pipeline, follow the steps below.
 4. Check GitHub hook trigger for GITScm polling
 5. Lastly, add the action Deploy an Application to AWS CodeDeploy
 (Fill the 1st 5 boxes with the info from AWS CodeDeploy and the Bucket created by S3)
-(Check "Use Access/Secret keys" and use some keys from an IAM User)
+(Check "Use Access/Secret keys" and use the keys from an IAM User that has full access to S3 and CodeDeploy)
 
 ## Test your pipeline
 Go to your github repo and play with the index file, check if your changes where automatically deployed to your instances by doing http to the ALB DNS
