@@ -21,7 +21,7 @@ If you want to replicate this pipeline, follow the steps below.
 
 ## Step 2: Configure the Github Repository
 1. Simple, have your own repo with these files.
-2. Create a Webhooks by clicking on Settings inside your repo
+2. Create a Webhook by clicking on Settings inside your repo
 3. The Payload URL is -> DNS:8080/github-webhook/
 4. Application/json
 5. Just push event + Active 
