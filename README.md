@@ -17,7 +17,7 @@ If you want to replicate this pipeline, follow the steps below.
 
 > $ cat [the directory you found]
 3. Paste the password you found on Jenkins
-4. Install suggested plugins, and then GitHub Integration Plugin + AWS CodeDeploy Plugin for Jenkins
+4. Install suggested plugins, and then GitHub Integration Plugin + AWS CodeDeploy Plugin
 
 ## Step 2: Configure the Github Repository
 1. Simple, have your own repo with these files.
