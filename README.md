@@ -9,7 +9,7 @@ If you want to replicate this pipeline, follow the steps below.
 ![Architecture 1](https://user-images.githubusercontent.com/67908214/156058092-5e417cd4-ec8c-4fd7-8009-33be469d5cc1.png)
 
 ## Step 1: Configure the Jenkins server
-### Note: the CF launches an ALB + ASG, the only way to http is via the ALB DNS
+### Note: the CF launches an ALB + ASG, the only way to http Production Environment is via the ALB DNS
 1. Run the CF template and configure the Jenkins server. 
 (Remember to open port 8080, and access via http DNS:8080) (You will find a folder directory)
 2. Access the Jenkins Server instace via EC2 Instance Connect and run
